@@ -61,10 +61,7 @@ opponent.
 
 ## Team Sabotage-d
 
-Neel Gupta
-Ananya Agarwal
-Kartik Jeengar
-Arnav Garg
+Neel Gupta · Ananya Agarwal · Kartik Jeengar · Arnav Garg
 
 Thanks to the UNSW Battlecode 2026 organisers for the game, the engine, the visualiser and the public replays, and
 to every team we played.
