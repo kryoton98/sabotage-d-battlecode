@@ -70,8 +70,8 @@ only the third tiebreak, so this is usually a good trade.
 
 ## The queen
 
-Queen length is the first tiebreak, so the queen gets her own rules. She has a home to stay near on big maps, a
-"vault" (a sealed space) to hide in, and she never feeds. She keeps off portals when they are risky, and an escape
+Queen length is the first tiebreak, so the queen gets her own rules. She stays near home and never feeds. On
+mid-size maps the team feeds her. She keeps off portals when they are risky, small friends guard her, and an escape
 search runs whenever an enemy is in view. All of this is on its own page: [queen.md](queen.md).
 
 ## Knowing the map

@@ -62,7 +62,7 @@ that were added last.
 | `sonar.hpp` | the 64-bit words dragons send: the king's beacon, "a queen is dead", the team's contact estimate |
 | `endgame_feed.hpp` | the endgame: short dragons die beside a long one so it eats the pearls they drop |
 | `lanes.hpp` | dead-end lanes farmed as a relay |
-| `queen.hpp` | the queen's portal rules and her "vault" (a sealed space to hide in) |
+| `queen.hpp` | the queen's portal rules, and a "vault" (a sealed space to hide in) that is off in this build |
 | `known_maps.hpp`, `known_maps_data.hpp` | recognising a ladder map exactly (used here only for Trophy's spawn rates and the Around UNSW opening) |
 | `params.hpp`, `param_names.hpp`, `params_json.hpp` | every tunable with its default; the JSON overrides |
 
