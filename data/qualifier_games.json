@@ -1,0 +1,1556 @@
+[
+ {
+  "map": "caution",
+  "size": "32x16",
+  "our_side": "A",
+  "end": "eliminated",
+  "rounds": 180,
+  "winner": "us",
+  "us": {
+   "dragons": 11,
+   "longest": 3,
+   "total": 26
+  },
+  "them": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 156,
+   "died_how": "wall"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 20,
+   "died_how": "self"
+  },
+  "decided_by": "elimination",
+  "game": 1586659,
+  "round": "Round of 256",
+  "opponent": "PAPOI",
+  "opponent_seed": 239,
+  "game_no": 1,
+  "map_title": "Caution"
+ },
+ {
+  "map": "metro",
+  "size": "48x48",
+  "our_side": "A",
+  "end": "eliminated",
+  "rounds": 372,
+  "winner": "us",
+  "us": {
+   "dragons": 64,
+   "longest": 25,
+   "total": 408
+  },
+  "them": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 21,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 48,
+   "died_how": "head2head"
+  },
+  "decided_by": "elimination",
+  "game": 1586660,
+  "round": "Round of 256",
+  "opponent": "PAPOI",
+  "opponent_seed": 239,
+  "game_no": 2,
+  "map_title": "Metro"
+ },
+ {
+  "map": "ouroboros",
+  "size": "56x56",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 33,
+   "longest": 94,
+   "total": 365
+  },
+  "them": {
+   "dragons": 7,
+   "longest": 39,
+   "total": 172
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 56,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 60,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1586661,
+  "round": "Round of 256",
+  "opponent": "PAPOI",
+  "opponent_seed": 239,
+  "game_no": 3,
+  "map_title": "Ouroboros"
+ },
+ {
+  "map": "hive",
+  "size": "52x52",
+  "our_side": "A",
+  "end": "eliminated",
+  "rounds": 102,
+  "winner": "us",
+  "us": {
+   "dragons": 64,
+   "longest": 32,
+   "total": 445
+  },
+  "them": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 9,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 81,
+   "died_how": "head2head"
+  },
+  "decided_by": "elimination",
+  "game": 1586662,
+  "round": "Round of 256",
+  "opponent": "PAPOI",
+  "opponent_seed": 239,
+  "game_no": 4,
+  "map_title": "Hive"
+ },
+ {
+  "map": "athena",
+  "size": "64x48",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 17,
+   "longest": 97,
+   "total": 312
+  },
+  "them": {
+   "dragons": 29,
+   "longest": 25,
+   "total": 250
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 233,
+   "died_how": "wall"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 94,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1586663,
+  "round": "Round of 256",
+  "opponent": "PAPOI",
+  "opponent_seed": 239,
+  "game_no": 5,
+  "map_title": "Athena"
+ },
+ {
+  "map": "maelstrom",
+  "size": "56x56",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 24,
+   "longest": 68,
+   "total": 404
+  },
+  "them": {
+   "dragons": 2,
+   "longest": 4,
+   "total": 7
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 212,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 84,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1586664,
+  "round": "Round of 256",
+  "opponent": "PAPOI",
+  "opponent_seed": 239,
+  "game_no": 6,
+  "map_title": "Maelstrom"
+ },
+ {
+  "map": "trolley problem",
+  "size": "50x50",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 7,
+   "longest": 46,
+   "total": 106
+  },
+  "them": {
+   "dragons": 29,
+   "longest": 8,
+   "total": 83
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 247,
+   "died_how": "wall"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 132,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1586665,
+  "round": "Round of 256",
+  "opponent": "PAPOI",
+  "opponent_seed": 239,
+  "game_no": 7,
+  "map_title": "Trolley Problem"
+ },
+ {
+  "map": "caution",
+  "size": "32x16",
+  "our_side": "A",
+  "end": "eliminated",
+  "rounds": 105,
+  "winner": "us",
+  "us": {
+   "dragons": 13,
+   "longest": 3,
+   "total": 30
+  },
+  "them": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 39,
+   "died_how": "wall"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 1,
+   "died_how": "wall"
+  },
+  "decided_by": "elimination",
+  "game": 1587289,
+  "round": "Round of 128",
+  "opponent": "Ciallo～(∠・ω< )⌒☆",
+  "opponent_seed": 111,
+  "game_no": 1,
+  "map_title": "Caution"
+ },
+ {
+  "map": "metro",
+  "size": "48x48",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 13,
+   "longest": 59,
+   "total": 191
+  },
+  "them": {
+   "dragons": 14,
+   "longest": 28,
+   "total": 95
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 114,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 157,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587290,
+  "round": "Round of 128",
+  "opponent": "Ciallo～(∠・ω< )⌒☆",
+  "opponent_seed": 111,
+  "game_no": 2,
+  "map_title": "Metro"
+ },
+ {
+  "map": "ouroboros",
+  "size": "56x56",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 10,
+   "longest": 96,
+   "total": 232
+  },
+  "them": {
+   "dragons": 46,
+   "longest": 23,
+   "total": 243
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 168,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 164,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587291,
+  "round": "Round of 128",
+  "opponent": "Ciallo～(∠・ω< )⌒☆",
+  "opponent_seed": 111,
+  "game_no": 3,
+  "map_title": "Ouroboros"
+ },
+ {
+  "map": "hive",
+  "size": "52x52",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 41,
+   "longest": 76,
+   "total": 424
+  },
+  "them": {
+   "dragons": 20,
+   "longest": 20,
+   "total": 132
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 76,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 162,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587292,
+  "round": "Round of 128",
+  "opponent": "Ciallo～(∠・ω< )⌒☆",
+  "opponent_seed": 111,
+  "game_no": 4,
+  "map_title": "Hive"
+ },
+ {
+  "map": "athena",
+  "size": "64x48",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 34,
+   "longest": 78,
+   "total": 406
+  },
+  "them": {
+   "dragons": 52,
+   "longest": 56,
+   "total": 306
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 57,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 26,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "queen length",
+  "game": 1587293,
+  "round": "Round of 128",
+  "opponent": "Ciallo～(∠・ω< )⌒☆",
+  "opponent_seed": 111,
+  "game_no": 5,
+  "map_title": "Athena"
+ },
+ {
+  "map": "maelstrom",
+  "size": "56x56",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 18,
+   "longest": 102,
+   "total": 457
+  },
+  "them": {
+   "dragons": 1,
+   "longest": 9,
+   "total": 9
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 315,
+   "died_how": "body"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 163,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587294,
+  "round": "Round of 128",
+  "opponent": "Ciallo～(∠・ω< )⌒☆",
+  "opponent_seed": 111,
+  "game_no": 6,
+  "map_title": "Maelstrom"
+ },
+ {
+  "map": "trolley problem",
+  "size": "50x50",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 12,
+   "longest": 33,
+   "total": 138
+  },
+  "them": {
+   "dragons": 20,
+   "longest": 20,
+   "total": 97
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 13,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 116,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587295,
+  "round": "Round of 128",
+  "opponent": "Ciallo～(∠・ω< )⌒☆",
+  "opponent_seed": 111,
+  "game_no": 7,
+  "map_title": "Trolley Problem"
+ },
+ {
+  "map": "caution",
+  "size": "32x16",
+  "our_side": "A",
+  "end": "eliminated",
+  "rounds": 24,
+  "winner": "draw",
+  "us": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "them": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 24,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 24,
+   "died_how": "head2head"
+  },
+  "decided_by": "draw",
+  "game": 1587604,
+  "round": "Round of 64",
+  "opponent": "Martin Shkreli’s Defense Team",
+  "opponent_seed": 82,
+  "game_no": 1,
+  "map_title": "Caution"
+ },
+ {
+  "map": "metro",
+  "size": "48x48",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 34,
+   "longest": 62,
+   "total": 218
+  },
+  "them": {
+   "dragons": 21,
+   "longest": 52,
+   "total": 183
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 62,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 108,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587605,
+  "round": "Round of 64",
+  "opponent": "Martin Shkreli’s Defense Team",
+  "opponent_seed": 82,
+  "game_no": 2,
+  "map_title": "Metro"
+ },
+ {
+  "map": "ouroboros",
+  "size": "56x56",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 25,
+   "longest": 66,
+   "total": 211
+  },
+  "them": {
+   "dragons": 43,
+   "longest": 68,
+   "total": 308
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 66,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 181,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587606,
+  "round": "Round of 64",
+  "opponent": "Martin Shkreli’s Defense Team",
+  "opponent_seed": 82,
+  "game_no": 3,
+  "map_title": "Ouroboros"
+ },
+ {
+  "map": "hive",
+  "size": "52x52",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 19,
+   "longest": 95,
+   "total": 300
+  },
+  "them": {
+   "dragons": 13,
+   "longest": 47,
+   "total": 168
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 124,
+   "died_how": "wall"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 133,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587607,
+  "round": "Round of 64",
+  "opponent": "Martin Shkreli’s Defense Team",
+  "opponent_seed": 82,
+  "game_no": 4,
+  "map_title": "Hive"
+ },
+ {
+  "map": "athena",
+  "size": "64x48",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 21,
+   "longest": 60,
+   "total": 279
+  },
+  "them": {
+   "dragons": 38,
+   "longest": 44,
+   "total": 319
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 276,
+   "died_how": "self"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 39,
+   "died_how": "self"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587608,
+  "round": "Round of 64",
+  "opponent": "Martin Shkreli’s Defense Team",
+  "opponent_seed": 82,
+  "game_no": 5,
+  "map_title": "Athena"
+ },
+ {
+  "map": "maelstrom",
+  "size": "56x56",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 54,
+   "longest": 45,
+   "total": 349
+  },
+  "them": {
+   "dragons": 23,
+   "longest": 35,
+   "total": 131
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 27,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 411,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587609,
+  "round": "Round of 64",
+  "opponent": "Martin Shkreli’s Defense Team",
+  "opponent_seed": 82,
+  "game_no": 6,
+  "map_title": "Maelstrom"
+ },
+ {
+  "map": "trolley problem",
+  "size": "50x50",
+  "our_side": "A",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 19,
+   "longest": 32,
+   "total": 142
+  },
+  "them": {
+   "dragons": 12,
+   "longest": 47,
+   "total": 118
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 23,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 124,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587610,
+  "round": "Round of 64",
+  "opponent": "Martin Shkreli’s Defense Team",
+  "opponent_seed": 82,
+  "game_no": 7,
+  "map_title": "Trolley Problem"
+ },
+ {
+  "map": "ezam",
+  "size": "48x24",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 13,
+   "longest": 97,
+   "total": 215
+  },
+  "them": {
+   "dragons": 5,
+   "longest": 48,
+   "total": 72
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 216,
+   "died_how": "body"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 400,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587758,
+  "round": "Round of 32",
+  "opponent": "Cache me outside",
+  "opponent_seed": 15,
+  "game_no": 1,
+  "map_title": "Ezam"
+ },
+ {
+  "map": "atlantis",
+  "size": "48x48",
+  "our_side": "B",
+  "end": "eliminated",
+  "rounds": 406,
+  "winner": "us",
+  "us": {
+   "dragons": 18,
+   "longest": 6,
+   "total": 50
+  },
+  "them": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 197,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 331,
+   "died_how": "head2head"
+  },
+  "decided_by": "elimination",
+  "game": 1587759,
+  "round": "Round of 32",
+  "opponent": "Cache me outside",
+  "opponent_seed": 15,
+  "game_no": 2,
+  "map_title": "Atlantis"
+ },
+ {
+  "map": "metro",
+  "size": "48x48",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 11,
+   "longest": 59,
+   "total": 139
+  },
+  "them": {
+   "dragons": 33,
+   "longest": 65,
+   "total": 291
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 175,
+   "died_how": "self"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 83,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587760,
+  "round": "Round of 32",
+  "opponent": "Cache me outside",
+  "opponent_seed": 15,
+  "game_no": 3,
+  "map_title": "Metro"
+ },
+ {
+  "map": "detention",
+  "size": "60x40",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 44,
+   "longest": 53,
+   "total": 205
+  },
+  "them": {
+   "dragons": 36,
+   "longest": 76,
+   "total": 306
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 3,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 3,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "longest dragon",
+  "game": 1587761,
+  "round": "Round of 32",
+  "opponent": "Cache me outside",
+  "opponent_seed": 15,
+  "game_no": 4,
+  "map_title": "Detention"
+ },
+ {
+  "map": "whale_song",
+  "size": "64x64",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 14,
+   "longest": 49,
+   "total": 220
+  },
+  "them": {
+   "dragons": 16,
+   "longest": 39,
+   "total": 182
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 24,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 18,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "queen length",
+  "game": 1587762,
+  "round": "Round of 32",
+  "opponent": "Cache me outside",
+  "opponent_seed": 15,
+  "game_no": 5,
+  "map_title": "Whale Song"
+ },
+ {
+  "map": "thermopylae",
+  "size": "64x64",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 4,
+   "longest": 20,
+   "total": 27
+  },
+  "them": {
+   "dragons": 39,
+   "longest": 27,
+   "total": 176
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 131,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 373,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587763,
+  "round": "Round of 32",
+  "opponent": "Cache me outside",
+  "opponent_seed": 15,
+  "game_no": 6,
+  "map_title": "Thermopylae"
+ },
+ {
+  "map": "troll_australia",
+  "size": "64x64",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 28,
+   "longest": 68,
+   "total": 217
+  },
+  "them": {
+   "dragons": 44,
+   "longest": 24,
+   "total": 249
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 4,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 151,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587764,
+  "round": "Round of 32",
+  "opponent": "Cache me outside",
+  "opponent_seed": 15,
+  "game_no": 7,
+  "map_title": "Troll Australia"
+ },
+ {
+  "map": "caution",
+  "size": "32x16",
+  "our_side": "B",
+  "end": "eliminated",
+  "rounds": 19,
+  "winner": "us",
+  "us": {
+   "dragons": 1,
+   "longest": 3,
+   "total": 3
+  },
+  "them": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 3,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 13,
+   "died_how": "head2head"
+  },
+  "decided_by": "elimination",
+  "game": 1587835,
+  "round": "Round of 16",
+  "opponent": "larp stock zi balls",
+  "opponent_seed": 2,
+  "game_no": 1,
+  "map_title": "Caution"
+ },
+ {
+  "map": "atlantis",
+  "size": "48x48",
+  "our_side": "B",
+  "end": "eliminated",
+  "rounds": 188,
+  "winner": "them",
+  "us": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "them": {
+   "dragons": 62,
+   "longest": 13,
+   "total": 261
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 188,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 2,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "elimination",
+  "game": 1587836,
+  "round": "Round of 16",
+  "opponent": "larp stock zi balls",
+  "opponent_seed": 2,
+  "game_no": 2,
+  "map_title": "Atlantis"
+ },
+ {
+  "map": "ouroboros",
+  "size": "56x56",
+  "our_side": "B",
+  "end": "eliminated",
+  "rounds": 286,
+  "winner": "them",
+  "us": {
+   "dragons": 0,
+   "longest": 0,
+   "total": 0
+  },
+  "them": {
+   "dragons": 63,
+   "longest": 60,
+   "total": 576
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 85,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 52,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "elimination",
+  "game": 1587837,
+  "round": "Round of 16",
+  "opponent": "larp stock zi balls",
+  "opponent_seed": 2,
+  "game_no": 3,
+  "map_title": "Ouroboros"
+ },
+ {
+  "map": "athena",
+  "size": "64x48",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 15,
+   "longest": 46,
+   "total": 132
+  },
+  "them": {
+   "dragons": 27,
+   "longest": 123,
+   "total": 495
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 102,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 190,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587838,
+  "round": "Round of 16",
+  "opponent": "larp stock zi balls",
+  "opponent_seed": 2,
+  "game_no": 4,
+  "map_title": "Athena"
+ },
+ {
+  "map": "detention",
+  "size": "60x40",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 15,
+   "longest": 14,
+   "total": 62
+  },
+  "them": {
+   "dragons": 39,
+   "longest": 195,
+   "total": 526
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 3,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 3,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "longest dragon",
+  "game": 1587839,
+  "round": "Round of 16",
+  "opponent": "larp stock zi balls",
+  "opponent_seed": 2,
+  "game_no": 5,
+  "map_title": "Detention"
+ },
+ {
+  "map": "troll_australia",
+  "size": "64x64",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 1,
+   "longest": 4,
+   "total": 4
+  },
+  "them": {
+   "dragons": 29,
+   "longest": 205,
+   "total": 461
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 227,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 22,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "queen length",
+  "game": 1587840,
+  "round": "Round of 16",
+  "opponent": "larp stock zi balls",
+  "opponent_seed": 2,
+  "game_no": 6,
+  "map_title": "Troll Australia"
+ },
+ {
+  "map": "trolley problem",
+  "size": "50x50",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 8,
+   "longest": 27,
+   "total": 73
+  },
+  "them": {
+   "dragons": 3,
+   "longest": 61,
+   "total": 93
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 26,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 21,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "queen length",
+  "game": 1587841,
+  "round": "Round of 16",
+  "opponent": "larp stock zi balls",
+  "opponent_seed": 2,
+  "game_no": 7,
+  "map_title": "Trolley Problem"
+ },
+ {
+  "map": "ezam",
+  "size": "48x24",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 10,
+   "longest": 75,
+   "total": 241
+  },
+  "them": {
+   "dragons": 1,
+   "longest": 81,
+   "total": 81
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 75,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 397,
+   "died_how": "head2head"
+  },
+  "decided_by": "queen length",
+  "game": 1587933,
+  "round": "Second chance, quarterfinal",
+  "opponent": "TTT is All You Need",
+  "opponent_seed": 11,
+  "game_no": 1,
+  "map_title": "Ezam"
+ },
+ {
+  "map": "metro",
+  "size": "48x48",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 34,
+   "longest": 49,
+   "total": 203
+  },
+  "them": {
+   "dragons": 6,
+   "longest": 103,
+   "total": 279
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 85,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 300,
+   "died_how": "self"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587934,
+  "round": "Second chance, quarterfinal",
+  "opponent": "TTT is All You Need",
+  "opponent_seed": 11,
+  "game_no": 2,
+  "map_title": "Metro"
+ },
+ {
+  "map": "ouroboros",
+  "size": "56x56",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 19,
+   "longest": 50,
+   "total": 221
+  },
+  "them": {
+   "dragons": 9,
+   "longest": 134,
+   "total": 371
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 90,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 103,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587935,
+  "round": "Second chance, quarterfinal",
+  "opponent": "TTT is All You Need",
+  "opponent_seed": 11,
+  "game_no": 3,
+  "map_title": "Ouroboros"
+ },
+ {
+  "map": "hive",
+  "size": "52x52",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "us",
+  "us": {
+   "dragons": 21,
+   "longest": 85,
+   "total": 330
+  },
+  "them": {
+   "dragons": 11,
+   "longest": 54,
+   "total": 217
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 68,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 63,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587936,
+  "round": "Second chance, quarterfinal",
+  "opponent": "TTT is All You Need",
+  "opponent_seed": 11,
+  "game_no": 4,
+  "map_title": "Hive"
+ },
+ {
+  "map": "whale_song",
+  "size": "64x64",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 15,
+   "longest": 80,
+   "total": 206
+  },
+  "them": {
+   "dragons": 7,
+   "longest": 62,
+   "total": 142
+  },
+  "our_queen": {
+   "alive": true,
+   "length": 4,
+   "died_round": null,
+   "died_how": null
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 7,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "queen length",
+  "game": 1587937,
+  "round": "Second chance, quarterfinal",
+  "opponent": "TTT is All You Need",
+  "opponent_seed": 11,
+  "game_no": 5,
+  "map_title": "Whale Song"
+ },
+ {
+  "map": "maelstrom",
+  "size": "56x56",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 29,
+   "longest": 56,
+   "total": 175
+  },
+  "them": {
+   "dragons": 5,
+   "longest": 68,
+   "total": 114
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 226,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 355,
+   "died_how": "head2head"
+  },
+  "decided_by": "longest dragon",
+  "game": 1587938,
+  "round": "Second chance, quarterfinal",
+  "opponent": "TTT is All You Need",
+  "opponent_seed": 11,
+  "game_no": 6,
+  "map_title": "Maelstrom"
+ },
+ {
+  "map": "thermopylae",
+  "size": "64x64",
+  "our_side": "B",
+  "end": "roundlimit",
+  "rounds": 499,
+  "winner": "them",
+  "us": {
+   "dragons": 12,
+   "longest": 5,
+   "total": 32
+  },
+  "them": {
+   "dragons": 9,
+   "longest": 27,
+   "total": 114
+  },
+  "our_queen": {
+   "alive": false,
+   "length": 0,
+   "died_round": 430,
+   "died_how": "head2head"
+  },
+  "their_queen": {
+   "alive": true,
+   "length": 7,
+   "died_round": null,
+   "died_how": null
+  },
+  "decided_by": "queen length",
+  "game": 1587939,
+  "round": "Second chance, quarterfinal",
+  "opponent": "TTT is All You Need",
+  "opponent_seed": 11,
+  "game_no": 7,
+  "map_title": "Thermopylae"
+ }
+]

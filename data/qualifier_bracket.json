@@ -1,0 +1,73 @@
+{
+  "source": "game.battlecode.au/tournaments?tab=qualifier (bracket data, read 14 Oct 2026)",
+  "format": "seeded single elimination, 280 eligible teams, best of 7 on unseen maps; the 8 quarterfinalists and the 2 finalists of the Round-of-16 losers' bracket qualify for the Grand Final",
+  "our_seed": 18,
+  "our_path": [
+    {"round": "First round", "opponent": null, "seed": null, "score": "bye", "won": true},
+    {"round": "Round of 256", "opponent": "PAPOI", "seed": 239, "score": "7-0", "won": true, "battle": 1586659,
+     "games": [["Caution", "W"], ["Metro", "W"], ["Ouroboros", "W"], ["Hive", "W"], ["Athena", "W"], ["Maelstrom", "W"], ["Trolley Problem", "W"]]},
+    {"round": "Round of 128", "opponent": "Ciallo～(∠・ω< )⌒☆", "seed": 111, "score": "7-0", "won": true, "battle": 1587289,
+     "games": [["Caution", "W"], ["Metro", "W"], ["Ouroboros", "W"], ["Hive", "W"], ["Athena", "W"], ["Maelstrom", "W"], ["Trolley Problem", "W"]]},
+    {"round": "Round of 64", "opponent": "Martin Shkreli’s Defense Team", "seed": 82, "score": "6-0 (1 draw)", "won": true, "battle": 1587604,
+     "games": [["Caution", "D"], ["Metro", "W"], ["Ouroboros", "W"], ["Hive", "W"], ["Athena", "W"], ["Maelstrom", "W"], ["Trolley Problem", "W"]]},
+    {"round": "Round of 32", "opponent": "Cache me outside", "seed": 15, "score": "4-3", "won": true, "battle": 1587758,
+     "games": [["Ezam", "W"], ["Atlantis", "W"], ["Metro", "L"], ["Detention", "L"], ["Whale Song", "W"], ["Thermopylae", "L"], ["Troll Australia", "W"]]},
+    {"round": "Round of 16", "opponent": "larp stock zi balls", "seed": 2, "score": "2-5", "won": false, "battle": 1587835,
+     "games": [["Caution", "W"], ["Atlantis", "L"], ["Ouroboros", "L"], ["Athena", "L"], ["Detention", "L"], ["Troll Australia", "L"], ["Trolley Problem", "W"]]},
+    {"round": "Second chance, quarterfinal", "opponent": "TTT is All You Need", "seed": 11, "score": "2-5", "won": false, "battle": 1587933,
+     "games": [["Ezam", "W"], ["Metro", "L"], ["Ouroboros", "L"], ["Hive", "W"], ["Whale Song", "L"], ["Maelstrom", "L"], ["Thermopylae", "L"]]}
+  ],
+  "round_of_32": [
+    [1, "aAah", 7, 32, "free trip to sydney pls", 0],
+    [16, "3.14159265", 2, 17, "bread first search", 5],
+    [8, "𓎼𓃭𓅱𓂋𓇌 𓏏𓅱 𓂋𓄿", 4, 25, "Computers", 3],
+    [9, "Sponge(Albert and Bob)", 5, 24, "SHINK AI 6500", 2],
+    [4, "chat gippy tea", 7, 29, "PhoBoDacBiet", 0],
+    [13, "fandagong", 0, 20, "Kaizen", 7],
+    [5, "forgot to mention", 5, 28, "Team SKKU", 2],
+    [12, "中国必须人能飞😡", 2, 44, "y", 5],
+    [2, "larp stock zi balls", 7, 34, "Peanut Butter", 0],
+    [15, "Cache me outside", 3, 18, "Sabotage-d", 4],
+    [7, "SSS", 4, 39, "nooberGamer", 3],
+    [10, "test4", 5, 23, "1", 2],
+    [3, "WeHaveQuizzes", 6, 35, "Kamikaze", 1],
+    [14, "Settlers of Battlecode", 4, 19, "Codehammer 40K", 3],
+    [6, "Cutlery", 6, 27, "Heartbreaker", 1],
+    [11, "TTT is All You Need", 4, 22, "Goated", 3]
+  ],
+  "round_of_16": [
+    [1, "aAah", 5, 17, "bread first search", 2],
+    [8, "𓎼𓃭𓅱𓂋𓇌 𓏏𓅱 𓂋𓄿", 3, 9, "Sponge(Albert and Bob)", 4],
+    [4, "chat gippy tea", 5, 20, "Kaizen", 2],
+    [5, "forgot to mention", 5, 44, "y", 2],
+    [2, "larp stock zi balls", 5, 18, "Sabotage-d", 2],
+    [7, "SSS", 2, 10, "test4", 5],
+    [3, "WeHaveQuizzes", 4, 14, "Settlers of Battlecode", 3],
+    [6, "Cutlery", 4, 11, "TTT is All You Need", 3]
+  ],
+  "quarterfinals": [
+    [1, "aAah", 5, 9, "Sponge(Albert and Bob)", 2],
+    [4, "chat gippy tea", 6, 5, "forgot to mention", 1],
+    [2, "larp stock zi balls", 5, 10, "test4", 2],
+    [3, "WeHaveQuizzes", 3, 6, "Cutlery", 4]
+  ],
+  "semifinals": [
+    [1, "aAah", 5, 4, "chat gippy tea", 2],
+    [2, "larp stock zi balls", 5, 6, "Cutlery", 1]
+  ],
+  "final": [[1, "aAah", 4, 2, "larp stock zi balls", 3]],
+  "second_chance": {
+    "quarterfinals": [
+      [7, "SSS", 6, 44, "y", 1],
+      [14, "Settlers of Battlecode", 2, 17, "bread first search", 5],
+      [8, "𓎼𓃭𓅱𓂋𓇌 𓏏𓅱 𓂋𓄿", 3, 20, "Kaizen", 4],
+      [11, "TTT is All You Need", 5, 18, "Sabotage-d", 2]
+    ],
+    "semifinals": [
+      [7, "SSS", 6, 17, "bread first search", 1],
+      [11, "TTT is All You Need", 5, 20, "Kaizen", 2]
+    ],
+    "final": [[7, "SSS", 4, 11, "TTT is All You Need", 3]]
+  },
+  "grand_final_qualifiers": ["aAah", "Sponge(Albert and Bob)", "chat gippy tea", "forgot to mention", "larp stock zi balls", "test4", "WeHaveQuizzes", "Cutlery", "SSS", "TTT is All You Need"]
+}
