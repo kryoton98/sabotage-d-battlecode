@@ -5,9 +5,11 @@ This is our final general bot, the **smart-queen build**: C++, about 9,700 lines
 runs its own copy of this program, and the copies can only talk to each other by sonar.
 
 The build that was active when submissions froze for the Qualifier (v3.9zq-exp) was this bot plus map rules for the
-ladder maps. Those rules switch on only when the bot recognises one of the 18 ladder maps exactly, and every
-Qualifier map was new, so in the Qualifier it played as the code in this folder. The ladder-only rules are not
-published here; [docs/ladder.md](../docs/ladder.md) explains what they were.
+ladder maps. Those rules switch on only when the bot recognises one of the 18 ladder maps exactly. Every Qualifier
+map was new. On 9 of the 13 a recognition was impossible. On the other four, which share a size and parts of their
+layout with a ladder map, a dragon could take the map for the ladder one until it saw a difference, and the
+recognition is then undone. Apart from that, the Qualifier bot played as the code in this folder. The ladder-only
+rules are not published here; [docs/ladder.md](../docs/ladder.md) explains what they were.
 
 ## Build and run
 

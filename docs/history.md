@@ -59,7 +59,7 @@ won three rounds (7-0, 7-0, 5-2), and lost 3-4 to Check Raise in the Round of 64
 | gathering | 8-9 Oct | **the late gathering** from round 460 | performance rating 2265 against 2229 |
 | modules | 9 Oct | the bot split into `main.cpp` + modules | 12 of 12 games identical to the single-file bot |
 | smart queen | 9 Oct | escape search, portals last, body-aware searches (`CPU_SMART_QUEEN`) | the bot in [bot/](../bot/) |
-| v3.9zq-exp | 9 Oct | the smart queen plus the ladder-only map rules: **active at the Qualifier freeze** | on unseen maps it plays as the smart queen |
+| v3.9zq-exp | 9 Oct | the smart queen plus the ladder-only map rules: **active at the Qualifier freeze** | on new maps it plays as the smart queen |
 
 ## Tried and dropped
 
