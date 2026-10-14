@@ -195,7 +195,7 @@ def chart_longest_top16():
     ax.scatter([], [], s=58, color=THEM, label="opponent")
     ax.legend(loc="lower right", fontsize=9.5)
     longer = sum(1 for g in G if g["them"]["longest"] > g["us"]["longest"])
-    ax.set_title("Against the top-16 teams, their longest dragon was longer in %d of %d games" % (longer, len(G)), x=-0.2)
+    ax.set_title("Against the top-16 seeds, their longest dragon was longer in %d of %d games" % (longer, len(G)), x=-0.2)
     save(fig, "longest-vs-top16.png")
 
 
@@ -262,7 +262,7 @@ def chart_queen():
     a1.set_title("Local A/B test, %d paired games" % n_ab, fontsize=11)
     a1.legend([plt.Rectangle((0, 0), 1, 1, color=c) for c in (GRAY, US)], ["ladder bot of 8 Oct", "smart-queen bot"],
               fontsize=9, loc="upper left")
-    groups = [("all 42 Qualifier games", G), ("21 games vs top-16 teams", top)]
+    groups = [("all 42 Qualifier games", G), ("21 games vs top-16 seeds", top)]
     for i, (lab, gs) in enumerate(groups):
         ours = sum(g["our_queen"]["alive"] for g in gs)
         theirs = sum(g["their_queen"]["alive"] for g in gs)

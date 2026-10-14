@@ -20,11 +20,11 @@ $R "$QUAL/M1587764.replay" --end --us B --names "$CMO" --title "Round of 32, gam
    --caption "Qualifier · 10 Oct 2026" -o "$OUT/r32-g7-final.png"
 $R "$QUAL/M1587764.replay" --gif 0:499:4 --ms 90 --scale 7 --us B --names "$CMO" \
    --title "R32 game 7 · Troll Australia" -o "$OUT/r32-g7-full.gif"
-for r in 1 40 100; do
+for r in 0 40 100; do
   $R "$QUAL/M1587764.replay" --round $r --scale 7 --us B --names "$CMO" --title "Troll Australia" -o "$OUT/r32-g7-r$r.png"
 done
 
-# ... and in round 498 a 4-long dragon of ours rams their 78-long dragon head-on
+# ... and in round 498 a 4-long dragon of ours rams their 77-long dragon head-on
 $R "$QUAL/M1587764.replay" --gif 492:499:1 --ms 650 --view 4,36,18,13 --scale 26 --us B --names "$CMO" \
    --title "R32 game 7 · the last ram" -o "$OUT/r32-g7-last-ram.gif"
 
@@ -45,5 +45,5 @@ if [ -n "$LADDER" ]; then
   $R "$LADDER/M1501101.replay" --gif 70:78:1 --ms 600 --scale 22 --us A --names "Sabotage-d,forgot to mention" \
      --title "Ladder · Portals" --mark 5,2,1.4 --mark 26,14,1.4 -o "$OUT/ladder-portals-pocket.gif"
 fi
-python3 tools/compose_strip.py "$OUT/r32-g7-r1.png" "$OUT/r32-g7-r40.png" "$OUT/r32-g7-r100.png" -o "$OUT/r32-g7-opening.png"
-rm -f "$OUT/r32-g7-r1.png" "$OUT/r32-g7-r40.png" "$OUT/r32-g7-r100.png"
+python3 tools/compose_strip.py "$OUT/r32-g7-r0.png" "$OUT/r32-g7-r40.png" "$OUT/r32-g7-r100.png" -o "$OUT/r32-g7-opening.png"
+rm -f "$OUT/r32-g7-r0.png" "$OUT/r32-g7-r40.png" "$OUT/r32-g7-r100.png"

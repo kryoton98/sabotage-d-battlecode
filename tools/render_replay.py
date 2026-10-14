@@ -338,7 +338,8 @@ def main(argv=None):
     ap.add_argument("-o", "--out", default=None, help="output .png or .gif")
     ap.add_argument("--round", type=int, action="append", help="round to draw (repeat for several PNGs)")
     ap.add_argument("--end", action="store_true", help="draw the final board")
-    ap.add_argument("--gif", default=None, help="first:last:step rounds for an animated GIF")
+    ap.add_argument("--gif", default=None, help="first:last:step rounds for an animated GIF (ends on the final board "
+                    "when last reaches the end of the game)")
     ap.add_argument("--ms", type=int, default=110, help="GIF frame time in ms")
     ap.add_argument("--view", default=None, help="x0,y0,width,height: draw part of the map (wraps)")
     ap.add_argument("--scale", type=int, default=None, help="pixels per tile")
@@ -380,6 +381,8 @@ def main(argv=None):
         frames = [painter.draw(snaps[r], a.caption, marks) for r in want if r in snaps]
         if not frames:
             raise SystemExit("no rounds in range")
+        if hi >= snaps["end"].rnd - 1:                     # the range reaches the last round: end on the final board
+            frames.append(painter.draw(snaps["end"], a.caption, marks))
         out = a.out or "replay.gif"
         save_gif(frames, out, ms=a.ms)
         print("wrote", out, len(frames), "frames")
