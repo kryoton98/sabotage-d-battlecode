@@ -5,6 +5,7 @@
 | `qualifier_bracket.json` | Our path through the Qualifier (every game's map and result), the main bracket from the Round of 32, the second-chance bracket and the ten Grand Final qualifiers | the bracket on game.battlecode.au, read 14 Oct 2026 |
 | `qualifier_games.json`, `qualifier_games.csv` | One row per Qualifier game (42): map, size, how it ended, both teams' final dragons / longest / total, both queens (alive and her length, or when and how she died) and what decided the game | `tools/qualifier_stats.py` over the 42 replays |
 | `qualifier_timelines.json` | Per game and round: each team's dragons, longest, total length and queen length | the same script |
+| `qualifier_seeds.json` | The rating of every one of the 280 seeds at seeding, used by `tools/bracket_odds.py` | the Qualifier page on game.battlecode.au, 9 Oct 2026 |
 | `ladder_rating_hourly.csv` | Our ladder rating and rank, last value in each UTC hour, 1 to 14 Oct | the rating history on our team page |
 | `queen_ab_test.csv` | The local A/B test of the smart-queen bot against our ladder bot of 8 Oct | our local test runs, 9 Oct |
 

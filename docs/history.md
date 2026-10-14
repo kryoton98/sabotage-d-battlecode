@@ -42,7 +42,7 @@ won three rounds (7-0, 7-0, 5-2), and lost 3-4 to Check Raise in the Round of 64
 | v3.0 | 1 Oct | **new rules:** dragons 0 and 1 are queens, the longer queen wins at round 500, the first ⌈L/4⌉ sprint steps are free. A queen-safety package for maps of 1,100+ tiles | 142-98 (59.2%) against v2.18 |
 | v3.1 | 2 Oct | fix: on side-swapped maps our queen had played as an ordinary dragon | +2.8 points |
 | v3.2-v3.4 | 3 Oct | portal landings; chained free sprints; the queen buds only while the team is under 20 | v3.4 +9.3 points against v2.18 |
-| v3.5, v3.6 | 4 Oct | the official map layouts compiled in | 76.9% locally, **dropped**: no hard-coded maps in the main bot |
+| v3.5, v3.6 | 4 Oct | the official map layouts compiled in | 76.9% locally, **dropped**: the main bot should not depend on the ladder maps |
 | v3.7 | 4 Oct | an opening pull towards the centre on small maps | 217 of 320 (67.8%) against v3.4 on small maps |
 | v3.8 | 4 Oct | **lanes:** dead-end lanes farmed as a relay; no split on a newborn's first turn | 133 of 240 against v3.7 |
 | v4.0, v4.2 | 5 Oct | a rewrite from scratch, from seven design documents | 26 of 312 (8.3%) against v3.8. **Abandoned** |
@@ -51,15 +51,15 @@ won three rounds (7-0, 7-0, 5-2), and lost 3-4 to Check Raise in the Round of 64
 
 | Version | Date | What changed | Result |
 |---|---|---|---|
-| v3.9-v3.9c | 6 Oct | the rewrite's ideas re-tested as switches on v3.8; only the queen's tether passed | +27 over 360 against a sparring bot |
+| v3.9-v3.9c | 6 Oct | the rewrite's ideas re-tested as switches on v3.8; only the queen's tether passed | +27 wins over 360 games against a sparring bot |
 | v3.9d-v3.9j | 7 Oct | queen safety: no blind corridors, she never feeds, friends keep her exits open, the look-ahead; lanes on mid maps | small gains, one switch at a time |
 | v3.9k-v3.9r | 8 Oct | queen guards, the queen keeps out of reach and off portals on small maps, no late growth splits | v3.9l 137 of 236 against v3.9k |
 | v3.9s-v3.9v | 8 Oct | **map recognition** for the ladder maps; a few map rules on it | see [ladder.md](ladder.md) |
-| v3.10, v3.11 | 9 Oct | general builds without map recognition: spawn rates learned from countdowns | about +19 over 104 |
+| v3.10, v3.11 | 9 Oct | general builds without map recognition: spawn rates learned from countdowns | about +19 wins over 104 games |
 | gathering | 8-9 Oct | **the late gathering** from round 460 | performance rating 2265 against 2229 |
 | modules | 9 Oct | the bot split into `main.cpp` + modules | 12 of 12 games identical to the single-file bot |
 | smart queen | 9 Oct | escape search, portals last, body-aware searches (`CPU_SMART_QUEEN`) | the bot in [bot/](../bot/) |
-| v3.9zq-exp | 9 Oct | the smart queen plus the ladder-only map rules: **active at the Qualifier freeze** | on new maps it plays as the smart queen |
+| v3.9zq-exp | 9 Oct | the smart queen plus the ladder-only map rules: **active at the Qualifier freeze** | on new maps it plays as the smart queen, unless a look-alike map is mistaken for a ladder map for a while |
 
 ## Tried and dropped
 
@@ -67,11 +67,11 @@ won three rounds (7-0, 7-0, 5-2), and lost 3-4 to Check Raise in the Round of 64
   right, but too late in the game.
 - **Sharing the map by sonar.** 62-88: the swarm crowded together and starved. Threat warnings were dropped too,
   because a beam stops at the first dragon part in line.
-- **Waiting at portals.** A portal "clock" lost every race through a portal (39%).
+- **Waiting at portals.** A portal "clock" scored 39%: the waiting lost every race through a portal.
 - **Avoiding even trades.** 44.5%: staying out of even trades gives the food away.
 - **Spending CPU on deeper search.** Four times the search caps scored 49.2%, and a bigger route planner lost. Ten
   times the budget changed 4 games out of 198.
-- **An early gathering** at round 300 went 34 of 168 against 69: an early merge kills the economy. Only the round-460
-  gathering stayed.
-- **The rewrite** (v4.0) lost 8.3% of its games against the bot it was meant to replace. Its ideas came back one at
-  a time as switches, and most of them failed there too.
+- **An early gathering** at round 300 won 34 of 168 games, against 69 without it: an early merge kills the
+  economy. Only the round-460 gathering stayed.
+- **The rewrite** (v4.0) won only 8.3% of its games (26 of 312) against the bot it was meant to replace. Its ideas
+  came back one at a time as switches, and only one of them, the queen's tether, passed.

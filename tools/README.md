@@ -1,6 +1,7 @@
 # Tools
 
-Python 3. Everything here is our own code. The reader needs nothing outside the standard library.
+Python 3. Everything here is our own code. The reader needs nothing outside the standard library; the renderer
+needs Pillow and the charts need matplotlib.
 
 ## Reading replays
 
@@ -39,3 +40,11 @@ python tools/render_replay.py game.replay --list        # per round: dragons, lo
 
 `--us A|B` says which side we were (ours is drawn blue), `--names "A name,B name"` labels the teams, and
 `--mark x,y` draws a white ring to point something out.
+
+## Stats, charts and odds
+
+| File | What it does |
+|---|---|
+| `qualifier_stats.py` | Rebuilds every Qualifier game from its replay and writes `data/qualifier_games.json` / `.csv` (one row per game) and `data/qualifier_timelines.json` (per round). `python tools/qualifier_stats.py <folder with the replays>` |
+| `make_charts.py` | Draws every chart in `docs/images/charts` from `data/`. Needs matplotlib. |
+| `bracket_odds.py` | A Monte Carlo of the Qualifier bracket from the real seeds and ratings (`data/qualifier_seeds.json`). `python tools/bracket_odds.py 18` |

@@ -2,7 +2,7 @@
 
 ![Our ladder rating](images/charts/ladder-rating.png)
 
-| | |
+| Measure | Value |
 |---|---|
 | peak rating | **2334** (9 Oct, 00:59 UTC) |
 | rating at seeding | **2252**: 20th on the ladder, **seed 18** of the 280 eligible teams |
@@ -10,8 +10,8 @@
 | games on the team page | 19,141 won, 13 drawn, 14,594 lost |
 | earlier | #3 with v1 (22 Sept); #7 at 2001 (27 Sept); seed 18 of 591 at the Sprint (1 Oct) |
 
-The chart starts on 2 Oct; the rating history on the team page begins on 1 Oct. The flat gap on 9-10 Oct is the
-time between seeding and the Qualifier, when our rating did not move.
+The chart starts on 2 Oct; the rating history on the team page begins on 1 Oct. The break in the line on 9-10 Oct
+is the time between seeding and the Qualifier, when our rating did not move.
 
 ## The ladder is not the tournament
 
@@ -47,9 +47,9 @@ For the last day before seeding we made separate **ladder builds** with rules fo
   Stronghold.
 - **Walls and portals:** Portals.
 
-Each rule was tested on its own map, and it stayed only where it helped:
+Each rule was tested on its own map, and it stayed where it helped or did no harm:
 
-| Map | Local wins per game, with the rule against without |
+| Map | Local win rate with the rule, minus without (percentage points) |
 |---|---|
 | Maze | +31% |
 | weakhold | +28% |
@@ -59,6 +59,7 @@ Each rule was tested on its own map, and it stayed only where it helped:
 | Devil | +12% |
 | Autarky | +3% |
 | Portals | 0 |
+| Stronghold | +17% (no longer in the ladder pool; kept in case it came back) |
 | Stripes, Default, Slithery Fight, Trauma, Around UNSW | worse or no better: **left off** |
 
 In general, knowing the spawn rates without the walls made things worse; Australia, with spawn rates only, was the
@@ -74,8 +75,7 @@ maps without one:
 
 On the maps with a rule, performance went up by 105. On the others it went down by 64, which is the ladder moving
 under us. The difference, about **+169 ± 53**, is what the rules were worth on their own maps. Spread over the
-whole pool that is about +90 on the team rating, which is the average of the per-map ratings. Other teams very
-likely did the same.
+whole pool that is about +90 on the team rating, which is the average of the per-map ratings.
 
 The build that was active at the freeze, v3.9zq-exp, was the smart-queen bot plus these rules. A recognition needs
 a ladder map of the same size, and the views have to match it. On 9 of the 13 Qualifier maps that was impossible:

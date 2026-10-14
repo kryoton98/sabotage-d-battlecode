@@ -32,9 +32,9 @@ through, and her own body is in it. Next turn she dies on the kelp.*
 | 1 Oct | v3.0 | queen-safety package on maps of 1,100+ tiles | 142-98 (59.2%) against v2.18 over 240 games |
 | 2 Oct | v3.1 | **bug fix:** the queen ids had been hard-coded per side. On side-swapped maps (half the ladder games) our queen played as an ordinary dragon | +2.8 points against v2.18 |
 | 3 Oct | v3.4 | the queen buds off children only while the team has fewer than 20 dragons | +9.3 points against v2.18 |
-| 6 Oct | v3.9 | a tether: she pays for every step more than 8 tiles from where she started | +27 over 360 games against a sparring bot |
+| 6 Oct | v3.9 | a tether: she pays for every step more than 8 tiles from where she started | +27 wins over 360 games against a sparring bot |
 | 7 Oct | v3.9d-j | no blind corridors, she never feeds, friends never leave her without a legal step, a look-ahead at enemy reach | tested one at a time; the ones that helped stayed |
-| 8 Oct | v3.9k-s | small friends guard her, she keeps out of reach, no blind portals and no ramming on small maps, no growth splits after round 200 | 137 of 236 for v3.9l against v3.9k |
+| 8 Oct | v3.9k-r, v3.9s | small friends guard her, she keeps out of reach, no blind portals on small maps, no growth splits after round 200; from v3.9s, no ramming on small maps | 137 of 236 for v3.9l against v3.9k |
 | 9 Oct | smart queen | escape search with an enemy in view, portals only as a last resort on maps of 1,100+ tiles, body-aware survival search | below |
 
 ## The queen's rules in the final bot
@@ -49,8 +49,8 @@ through, and her own body is in it. Next turn she dies on the kelp.*
 | no ramming (small maps) | on maps under 1,100 tiles she never rams |
 | no blind portals (small maps) | on maps under 1,100 tiles she takes no portal whose landing she cannot see |
 | no late growth splits (1,100+ tiles) | from round 200 she stops splitting off children, so she keeps her length |
-| queen as king (1,100-3,999 tiles) | from round 300 the team feeds her, so the length goes where the first tiebreak counts it |
-| friends keep her exits | a friend that sees her never takes a step that leaves her without a legal step. If every step does, it walks into a wall, and its pearls are hers |
+| queen as king (1,100-3,999 tiles) | from round 300 she is the team's king, and from round 330 the team feeds her, so the length goes where the first tiebreak counts it |
+| friends keep her exits | a friend that sees her never takes a step that leaves her without a legal step. If every step does, it walks into kelp, and its pearls are hers |
 | guards | a short friend that sees an enemy head within 5 steps of her closes on it and rams it |
 | **smart queen:** escape | with any enemy part in view, she searches her own moves for an escape. The search knows where her own body will be, but it cannot know the enemies' future moves |
 | **smart queen:** portals last | on maps of 1,100+ tiles she takes a portal only when no checked ordinary route is safe |
@@ -72,7 +72,7 @@ than two steps away. She keeps out of its reach, turns back when it gives up, an
 - **Qualifier.** Our queen was alive at the end of 18 of our 42 games; the opponents' queens were alive in 10.
   Queen length decided 15 games, and **we won 12 of them**. That includes the 4-3 decider that put us in the top 16
   ([qualifier.md](qualifier.md)).
-- Against the top-16 teams the picture was even: our queen survived 8 of 21 games, theirs 9. Those teams protect
+- Against the top-16 seeds the picture was even: our queen survived 8 of 21 games, theirs 9. Those teams protect
   their queens too, and then the next tiebreak, the longest dragon, decides. That was our weak spot
   ([lessons.md](lessons.md)).
 
@@ -92,5 +92,5 @@ this on top of the ladder bot as `Q_PORT_LONG`, ON against OFF, in paired games:
 | Slithery Fight | 5 v 5 of 6 | 3 v 4 of 6, 5 v 6 of 8 | 4 v 4 |
 
 On the small long maps the queen needs her portals to escape: on Dilemma against the second bot the rule turned
-16 wins out of 16 into none. On long maps of 1,100+ tiles it was neutral or slightly better. The smart-queen bot's
+16 wins out of 16 into none. On long maps of 1,100+ tiles it was roughly neutral. The smart-queen bot's
 "portals only as a last resort" uses the same 1,100-tile threshold, for every map shape.

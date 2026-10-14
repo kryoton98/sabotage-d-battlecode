@@ -7,7 +7,8 @@ bracket for the Round-of-16 losers.
 
 We went in as **seed 18**, with a rating of 2252. Our Monte Carlo over the real seeds
 ([tools/bracket_odds.py](../tools/bracket_odds.py)) gave seed 18 a **41%** chance of reaching the Round of 16. It
-gave about 2% of reaching the Grand Final, because the Round of 16 meant seed 2.
+gave a 2% chance of reaching the Grand Final, because the Round of 16 meant seed 2. Most of that 2% was through the
+second-chance bracket.
 
 ## Our run: top 16
 
@@ -19,7 +20,7 @@ gave about 2% of reaching the Grand Final, because the Round of 16 meant seed 2.
 | Round of 64 | Martin Shkreli’s Defense Team (82) | 6-0, 1 draw |
 | **Round of 32** | **Cache me outside (15)** | **4-3** |
 | Round of 16 | larp stock zi balls (2) | 2-5 |
-| Second chance, first round | TTT is All You Need (11) | 2-5 |
+| Second chance, quarterfinal | TTT is All You Need (11) | 2-5 |
 
 Over 42 games we won 28, lost 13 and drew 1.
 
@@ -29,8 +30,8 @@ Over 42 games we won 28, lost 13 and drew 1.
 
 The safe queen and the swarm were enough against the field. In these 21 games our queen was alive at the end of 10
 and theirs of 1. Queen length decided 8 of them, the longest dragon 8, and elimination 4, and we won every one. The
-one draw was Caution against Martin Shkreli’s Defense Team. In round 24 the last dragons of both teams died, both
-queens among them, head-on.
+one draw was Caution against Martin Shkreli’s Defense Team. By round 24 each team had only its queen left, and the
+two queens met head-on.
 
 ## Round of 32: Cache me outside (seed 15), 4-3
 
@@ -59,9 +60,9 @@ Cache me outside has more total length (249 to 217), but queen length is the fir
 
 ![Game 7: queens and total length over time](images/charts/r32-g7-timeline.png)
 
-Their best chance was the longest dragon: a 78-long dragon at round 498, against our 67. It would not have been
-enough, because queen length comes first. It also did not survive. In round 498 a 4-long dragon of ours sprinted
-into its head, and both died.
+Their best chance was the longest dragon: 77 long at the start of round 498, against our 67. It would not have
+been enough, because queen length comes first. It also did not survive. In round 498 a 4-long dragon of ours
+sprinted into its head, and both died.
 
 ![Game 7: the last ram](images/replays/r32-g7-last-ram.gif)
 
@@ -91,20 +92,20 @@ length 3, so the longest dragon decided, and we had nothing close.
 filling the lower half) is 195. Ours is 14.*
 
 We still took two games off them. Caution was won by elimination in 19 rounds. On Trolley Problem our queen
-outlasted theirs, 26 to 21, although their longest dragon was more than twice ours. larp stock zi balls went on
+was the longer one, 26 to 21, although their longest dragon was more than twice ours. larp stock zi balls went on
 to the final and lost 4-3 to the top seed, aAah.
 
 ## Second chance: TTT is All You Need (seed 11), 2-5
 
 | Game | Map | Result | Decided by | Queens at the end (us v them) | Longest | Total |
 |---|---|---|---|---|---|---|
-| 1 | Ezam | **W** | queen length | **75** v dead (r397) | 75 v 81 | 241 v 81 |
-| 2 | Metro | L | longest dragon | dead (r85) v dead (r300) | 49 v 103 | 203 v 279 |
-| 3 | Ouroboros | L | longest dragon | dead (r90) v dead (r103) | 50 v 134 | 221 v 371 |
-| 4 | Hive | **W** | longest dragon | dead (r68) v dead (r63) | 85 v 54 | 330 v 217 |
-| 5 | Whale Song | L | queen length | 4 v 7 | 80 v 62 | 206 v 142 |
-| 6 | Maelstrom | L | longest dragon | dead (r226) v dead (r355) | 56 v 68 | 175 v 114 |
-| 7 | Thermopylae | L | queen length | dead (r430) v 7 | 5 v 27 | 32 v 114 |
+| 1 | Ezam (48 x 24) | **W** | queen length | **75** v dead (r397) | 75 v 81 | 241 v 81 |
+| 2 | Metro (48 x 48) | L | longest dragon | dead (r85) v dead (r300) | 49 v 103 | 203 v 279 |
+| 3 | Ouroboros (56 x 56) | L | longest dragon | dead (r90) v dead (r103) | 50 v 134 | 221 v 371 |
+| 4 | Hive (52 x 52) | **W** | longest dragon | dead (r68) v dead (r63) | 85 v 54 | 330 v 217 |
+| 5 | Whale Song (64 x 64) | L | queen length | 4 v 7 | 80 v 62 | 206 v 142 |
+| 6 | Maelstrom (56 x 56) | L | longest dragon | dead (r226) v dead (r355) | 56 v 68 | 175 v 114 |
+| 7 | Thermopylae (64 x 64) | L | queen length | dead (r430) v 7 | 5 v 27 | 32 v 114 |
 
 The pattern again: we lost every game that came down to the longest dragon except Hive. Hive is the game in the
 gathering GIF on [bot.md](bot.md). TTT is All You Need went on to the second-chance final and into the Grand Final.
@@ -113,17 +114,17 @@ gathering GIF on [bot.md](bot.md). TTT is All You Need went on to the second-cha
 
 ![How the Qualifier games were decided](images/charts/decided-by.png)
 
-![Longest dragon against the top-16 teams](images/charts/longest-vs-top16.png)
+![Longest dragon against the top-16 seeds](images/charts/longest-vs-top16.png)
 
 - **Against the field** our queen and our swarm decided everything.
-- **Against the three top-16 teams:**
+- **Against the three top-16 seeds:**
   - games decided by queen length: 4-3;
   - games decided by elimination: 2-2;
   - games decided by the longest dragon: **2-8**.
 
   Their queens were as safe as ours (alive at the end in 9 of 21 games against our 8), so the second tiebreak
-  decided. Our longest dragon came from a late gathering that starts at round 460. Theirs had been growing since
-  the middle of the game. [lessons.md](lessons.md) has more on this.
+  decided. Ours grew mostly late, from feeding and the gathering at round 460. The two strongest teams we met,
+  seeds 2 and 11, grew theirs from the middle of the game. [lessons.md](lessons.md) has more on this.
 
 ## Who went to the Grand Final
 
@@ -137,5 +138,6 @@ gathering GIF on [bot.md](bot.md). TTT is All You Need went on to the second-cha
 - WeHaveQuizzes
 - SSS and TTT is All You Need, through the second chance
 
-All the data behind this page is in [data/](../data/). Every number comes from the 42 replays, rebuilt by
-[tools/qualifier_stats.py](../tools/qualifier_stats.py).
+All the data behind this page is in [data/](../data/). Every per-game number comes from the 42 replays, rebuilt
+by [tools/qualifier_stats.py](../tools/qualifier_stats.py). The seeds, ratings and bracket come from the
+tournament page.

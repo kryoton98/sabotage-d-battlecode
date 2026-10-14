@@ -9,23 +9,24 @@ and we won 12 of them, including the game that put us in the top 16.
 
 ## 2. The second tiebreak matters just as much
 
-Against the three top-16 teams we played, the queens cancelled out: theirs survived as often as ours. Then the
-longest dragon decided 10 games, and we won 2. Those teams grew one dragon from the middle of the game. The seed-2
-team finished with 123, 195 and 205. Our long dragon came from feeding, and from the gathering at round 460, which
+Against the three top-16 seeds we played, the queens cancelled out: theirs survived as often as ours. Then the
+longest dragon decided 10 of the 21 games, and we won 2. The two strongest of those teams grew one dragon from the
+middle of the game. The seed-2 team finished with 123, 195 and 205. Our long dragon came from feeding, and from the gathering at round 460, which
 loses half of every dragon it feeds. It was enough against most of the field and nowhere near enough against the
 best.
 
 If we did it again, we would plan for a long dragon from the middle of the game, and test it against bots that do
 the same.
 
-![Longest dragon against the top-16 teams](images/charts/longest-vs-top16.png)
+![Longest dragon against the top-16 seeds](images/charts/longest-vs-top16.png)
 
 ## 3. Test on maps you have not seen
 
-Twice a version looked better on the known maps and was worse on new ones (v2.4's map tables, and v2.12). The
-ladder rewards knowing its maps, and the tournaments are played on maps nobody has seen. Our main bot stayed
-general. The map-specific rules lived only in separate ladder builds, and we measured what they were worth on the
-ladder ([ladder.md](ladder.md)).
+v2.4's map tables were worth rating, not strength: without them, v2.5 went 79-81 against it. v2.12 beat v2.11 on
+the known maps and lost on new ones. The ladder rewards knowing its maps, and the tournaments are played on maps
+nobody has seen. Our main bot stayed general. Apart from Trophy's spawn rates and the Around UNSW opening, the
+map-specific rules lived only in separate ladder builds, and we measured what they were worth on the ladder
+([ladder.md](ladder.md)).
 
 ## 4. One switch at a time, paired, hundreds of games
 
@@ -62,4 +63,4 @@ The reader in [tools/](../tools/) can rebuild any turn of any replay and feed it
 ## 8. Write the numbers down
 
 Every version shipped with a short README holding its test numbers. That habit is what made this write-up
-possible, a week later, without guessing.
+possible, a few days later, without guessing.

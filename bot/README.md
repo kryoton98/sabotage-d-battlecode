@@ -76,7 +76,8 @@ that were added last.
 | `body_search.cpp`, `body_search_bridge.hpp` | "after this step, can I keep moving, given where my own body will be?" Only a complete answer replaces the old survival estimate. |
 | `traversal_search.cpp`, `traversal_sim.cpp`, `traversal_bridge.hpp` | ordinary worker travel can pick a different free path after the same first step |
 
-These searches stop on node caps and on a 52–62 ms clock. In our judge-CPU measurements of this code (with the
+These searches stop on node caps and on a 52–62 ms clock. The clock runs from the end of the dragon's previous turn,
+so it includes the wait while the other dragons move. In our judge-CPU measurements of this code (with the
 ladder rules on top) the heaviest map averaged about 4M points a turn, with a peak of about 10M; the limit is 100M.
 `BODY_TRACE` and `TRAVEL_TRACE` are on in this build: they only write debug notes into the replay and do not change
 the play.

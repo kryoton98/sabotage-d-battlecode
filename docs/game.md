@@ -7,7 +7,8 @@ summary of the rules as they stood in October 2026. The official rules are at
 
 ## The board
 
-- A grid of tiles that **wraps around** at every edge (a torus). The maps we played ran from 32 x 16 up to 64 x 64.
+- A grid of tiles that **wraps around** at every edge (a torus). The Qualifier maps ran from 32 x 16 up to 64 x 64;
+  some ladder maps were smaller (Stripes is 24 x 12).
 - **Kelp** sits on the edges between tiles and blocks movement.
 - **Portals** also sit on edges and come in pairs. A head that crosses one portal edge comes out at its partner,
   which can be anywhere on the map.
@@ -35,7 +36,7 @@ summary of the rules as they stood in October 2026. The official rules are at
 
 ## Winning
 
-- Each team's lowest-id dragon is its **queen**.
+- Each team's **queen** is its starting dragon with the lowest id (0 or 1). A dead queen is not replaced.
 - A team with no dragons left loses.
 - After **500 rounds**, the tiebreaks are, in order:
   1. the longer **queen** (a dead queen counts as 0);
@@ -60,5 +61,4 @@ winner in every one.
 - **Trade heads.** A head-on collision kills both dragons, so a 3-long dragon can take out a 70-long one.
 - **The queen is the most valuable piece.** A living queen of length 4 beats a dead one, whatever else is on the
   board.
-- **Build one long dragon at the end.** It is the second tiebreak, so the late game is about feeding length into a
-  single dragon.
+- **Build one long dragon.** It is the second tiebreak, so by round 500 the length has to be in a single dragon.

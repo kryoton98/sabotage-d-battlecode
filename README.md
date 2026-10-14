@@ -11,7 +11,7 @@ round 151. Queen length is the first tiebreak.*
 
 ## Results
 
-| | |
+| Event | Result |
 |---|---|
 | **Qualifier**, 10 Oct | **top 16** of 280 · seed 18 · beat seed 15 4-3 in the Round of 32 · then 2-5 against seed 2 and 2-5 in the second-chance bracket · 28 games won, 13 lost, 1 drawn |
 | **Ladder** | peak rating 2334 · 2252 at seeding (20th) |
@@ -22,12 +22,12 @@ round 151. Queen length is the first tiebreak.*
 - **A swarm.** Split to 64 dragons early, let each one map the board on its own, and ram only when the trade pays.
   By round 100 of that game 7 we had 64 dragons to their 14.
 - **A safe queen.** Under the 1 Oct rules the longer queen wins at round 500, and a dead queen counts as 0. Our
-  queen has her own rules and, at the end, her own escape search. In the Qualifier she was alive at the end of
+  queen has her own rules and, in the final build, her own escape search. In the Qualifier she was alive at the end of
   18 of our 42 games, against 10 for the opponents' queens. Queen length decided 15 games, and **we won 12**.
-- **One long dragon at the end.** Short dragons die next to the team's king to feed it, and from round 460
-  everyone gathers at the king.
-- **What we lacked.** Against the top-16 teams the queens cancelled out, and the longest dragon decided. Those
-  teams grew one dragon from the middle of the game, up to 205 long, and we lost 8 of those 10 games.
+- **One long dragon at the end.** Short dragons die next to the team's king to feed it, and from round 460 every
+  dragon except the queen gathers at the king.
+- **What we lacked.** Against the top-16 seeds the queens cancelled out, and the longest dragon decided 10 of the
+  21 games. We lost 8. The best of those teams grew one dragon from the middle of the game, up to 205 long.
 
 ![Every Qualifier game](docs/images/charts/qualifier-games.png)
 
@@ -55,8 +55,9 @@ round 151. Queen length is the first tiebreak.*
 | [data/](data/) | the Qualifier games and bracket, our ladder rating, the queen A/B test |
 | [docs/](docs/) | the write-up and its images |
 
-All the pictures are drawn from the official replay files by [tools/render_replay.py](tools/render_replay.py).
-Blue is always us, orange the opponent.
+The replay pictures are drawn from the official replay files by [tools/render_replay.py](tools/render_replay.py),
+and the charts from [data/](data/) by [tools/make_charts.py](tools/make_charts.py). Blue is always us, orange the
+opponent.
 
 ## Team Sabotage-d
 

@@ -23,7 +23,7 @@ its own switch before it stayed on.
 Splitting is the economy. A dragon that has eaten a little splits, and each half goes off to eat on its own. The
 dragons spread out by exploring wherever the team has not been yet, and the cap of 64 dragons fills quickly.
 
-![Troll Australia at rounds 1, 40 and 100](images/replays/r32-g7-opening.png)
+![Troll Australia at rounds 0, 40 and 100](images/replays/r32-g7-opening.png)
 
 *Round of 32, game 7 (Troll Australia). Both teams start with 9 dragons. By round 100 we have 64, the cap, and
 Cache me outside has 14. Our total length is 212 to their 37.*
@@ -82,9 +82,10 @@ search runs whenever an enemy is in view. All of this is on its own page: [queen
   sees, it estimates how fast each tile spawns, and plans its route over the richest water.
 - **Lanes.** A dead-end lane with food is farmed as a relay. A dragon eats its way in, splits at the tip, and the
   child walks back out. This is on for maps under 4,000 tiles.
-- **Recognising ladder maps.** The bot can tell when it is on one of the ladder maps, exactly: every edge and timer
-  it has seen must match. In this build that is used for only two things, Trophy's spawn rates and the opening on
-  Around UNSW. [ladder.md](ladder.md) has the rest of that story.
+- **Recognising ladder maps.** The bot can tell when it is on one of the ladder maps: every edge and timer it has
+  seen must match one stored map. A look-alike map can fool it until it sees a difference. In this build that is
+  used for only two things, Trophy's spawn rates and the opening on Around UNSW. [ladder.md](ladder.md) has the rest
+  of that story.
 
 ## CPU
 
@@ -94,4 +95,4 @@ as Python. The two versions gave identical replies on 586,984 recorded turn inpu
 The port cut the cost of a turn from about 21M CPU points to about 3M, against a limit of 100M. We expected to
 spend that headroom on much deeper searches. In tests, ten times the search budget changed 4 games out of 198. The
 gains came from better rules, not deeper search. The smart-queen searches added at the end stop on node caps and a
-clock, and stay around 4M points a turn on average.
+clock, and average about 4M points a turn even on the heaviest map we measured.

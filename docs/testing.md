@@ -10,10 +10,10 @@ Most of our ideas did not work. The ones that did were found by testing everythi
   against the same opponent. We compare them game by game.
 - **Several opponents.** The sparring pool held older versions of our own bot and a few other bots. A change that
   only beats one opponent is usually exploiting that opponent.
-- **Two kinds of maps.** We always tested on the ladder maps and on generated maps the bot had never seen. The
+- **Two kinds of maps.** Most tests ran on the ladder maps and on generated maps the bot had never seen. The
   tournaments are played on unseen maps.
-- **Enough games.** One 80-game run moves about ±11 points either way by chance alone, so a gain of 2 or 3 points
-  needs several hundred games. Typical runs: 132-68 over 200 games (v2.9), 223-177 over 400 (v2.10),
+- **Enough games.** One 80-game run moves about ±11 points either way by chance alone. Finding a gain of 2 or 3
+  points needs many hundreds of games, more than a thousand for the smallest effects. Typical runs: 132-68 over 200 games (v2.9), 223-177 over 400 (v2.10),
   471-409 over 880 (v2.13).
 
 ## The harness
@@ -34,16 +34,17 @@ Some of the most useful results were the ones that went the wrong way:
   every map table out and still went 79-81 against v2.4. The tables were worth rating, not strength.
 - **v2.12** beat v2.11 274-166 (62.3%) on the known maps, but went 57-63 on unseen maps.
 - **On 4 Oct** compiling the official map layouts into the bot won 76.9% of local games on those maps. We took it
-  out. The team did not want hard-coded maps in the main bot, and they cannot help on unseen maps.
+  out. The main bot should not depend on the ladder maps, and the layouts cannot help on unseen maps.
 
 ## CPU
 
 - **The limit.** The judge prices every turn in CPU points, up to 100M. The engine's sandbox mode
   (`unswbc run --sandbox`) prices local games the same way.
-- **The house rule.** Ship only if the worst turn stays under 50M on the biggest maps (Big Empty, Schooltime,
-  Trauma), with the zip under 4 MB.
+- **The house rule** we settled on: ship only if the worst turn stays under 50M on the maps that cost the most CPU
+  (Big Empty, Schooltime and Trauma), with the zip under 4 MB.
 - **Python.** Every executed line cost about 1,500 points, so 100M bought about 3,000 nodes of breadth-first
-  search, and every search had a cap. v2.15 averaged 20.9M a turn and peaked at 62.1M on Slithery Fight.
+  search, and every search had a cap. v2.15 averaged 20.9M a turn and peaked at 62.1M on Slithery Fight, too close
+  to the limit for comfort.
 - **The C++ port** (27 Sept) averaged 3.0M a turn, with a peak of 4.5M. Before switching we checked it reply by
   reply. On 586,984 recorded turn inputs the C++ and Python bots gave the same answer, on the judge's wasm build
   too. The 16 test games they played were identical.
@@ -57,7 +58,8 @@ Some of the most useful results were the ones that went the wrong way:
   do we lose, and how?".
 - **Debugging.** The state rebuild can re-create the exact input a dragon saw on any turn. A bad move in a ladder
   replay can be fed back into the bot and debugged on its own.
-- **Pictures.** [tools/render_replay.py](../tools/render_replay.py) draws everything in this write-up.
+- **Pictures.** [tools/render_replay.py](../tools/render_replay.py) draws the replay pictures in this write-up,
+  and [tools/make_charts.py](../tools/make_charts.py) draws the charts.
 
 ## The ladder as a test
 
