@@ -1,0 +1,10 @@
+# local builds and games
+bot/bot
+bot/bot.exe
+*.o
+replays/
+*.replay
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
