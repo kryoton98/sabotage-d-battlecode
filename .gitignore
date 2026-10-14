@@ -2,7 +2,8 @@
 bot/bot
 bot/bot.exe
 *.o
-replays/
+/replays/
+bot/replays/
 *.replay
 __pycache__/
 *.pyc
