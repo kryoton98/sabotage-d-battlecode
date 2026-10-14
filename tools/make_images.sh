@@ -24,6 +24,12 @@ for r in 1 40 100; do
   $R "$QUAL/M1587764.replay" --round $r --scale 7 --us B --names "$CMO" --title "Troll Australia" -o "$OUT/r32-g7-r$r.png"
 done
 
+# ... and in round 498 a 4-long dragon of ours rams their 78-long dragon head-on
+$R "$QUAL/M1587764.replay" --gif 492:499:1 --ms 650 --view 4,36,18,13 --scale 26 --us B --names "$CMO" \
+   --title "R32 game 7 · the last ram" -o "$OUT/r32-g7-last-ram.gif"
+$R "$QUAL/M1587764.replay" --round 498 --view 4,36,18,13 --scale 26 --us B --names "$CMO" \
+   --title "R32 game 7 · the last ram" -o "$OUT/r32-g7-last-ram.png"
+
 # Round of 64, game 3 (Ouroboros): a 3-long enemy chases our 2-long queen for 15 rounds; she survives and ends at 66
 $R "$QUAL/M1587606.replay" --gif 172:192:1 --ms 450 --view 54,21,16,15 --scale 28 --us A --names "$MSD" \
    --title "R64 game 3 · the queen runs" -o "$OUT/r64-g3-queen-chase.gif"
