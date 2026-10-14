@@ -27,20 +27,14 @@ done
 # ... and in round 498 a 4-long dragon of ours rams their 78-long dragon head-on
 $R "$QUAL/M1587764.replay" --gif 492:499:1 --ms 650 --view 4,36,18,13 --scale 26 --us B --names "$CMO" \
    --title "R32 game 7 · the last ram" -o "$OUT/r32-g7-last-ram.gif"
-$R "$QUAL/M1587764.replay" --round 498 --view 4,36,18,13 --scale 26 --us B --names "$CMO" \
-   --title "R32 game 7 · the last ram" -o "$OUT/r32-g7-last-ram.png"
 
 # Round of 64, game 3 (Ouroboros): a 3-long enemy chases our 2-long queen for 15 rounds; she survives and ends at 66
 $R "$QUAL/M1587606.replay" --gif 172:192:1 --ms 450 --view 54,21,16,15 --scale 28 --us A --names "$MSD" \
    --title "R64 game 3 · the queen runs" -o "$OUT/r64-g3-queen-chase.gif"
-$R "$QUAL/M1587606.replay" --round 179 --view 54,21,16,15 --scale 28 --us A --names "$MSD" \
-   --title "R64 game 3 · the queen runs" -o "$OUT/r64-g3-queen-chase.png"
 
 # Second chance, game 4 (Hive): the late gathering - from round 460 our dragons feed one dragon
 $R "$QUAL/M1587936.replay" --gif 440:499:1 --ms 120 --scale 9 --us B --names "$TTT" \
    --title "Second chance, game 4 · Hive" -o "$OUT/sc-g4-gathering.gif"
-$R "$QUAL/M1587936.replay" --end --scale 9 --us B --names "$TTT" --title "Second chance, game 4 · Hive" \
-   -o "$OUT/sc-g4-final.png"
 
 # Round of 16, game 5 (Detention): what beat us - one 195-long dragon
 $R "$QUAL/M1587839.replay" --end --scale 11 --us B --names "$LARP" --title "Round of 16, game 5 · Detention" \
@@ -49,9 +43,7 @@ $R "$QUAL/M1587839.replay" --end --scale 11 --us B --names "$LARP" --title "Roun
 # Ladder, 8 Oct (Portals): the queen takes a portal into a one-tile pocket and dies on the kelp
 if [ -n "$LADDER" ]; then
   $R "$LADDER/M1501101.replay" --gif 70:78:1 --ms 600 --scale 22 --us A --names "Sabotage-d,forgot to mention" \
-     --title "Ladder · Portals" -o "$OUT/ladder-portals-pocket.gif"
-  $R "$LADDER/M1501101.replay" --round 77 --scale 22 --us A --names "Sabotage-d,forgot to mention" \
-     --title "Ladder · Portals" --mark 5,2,1.4 --mark 26,14,1.4 -o "$OUT/ladder-portals-pocket.png"
+     --title "Ladder · Portals" --mark 5,2,1.4 --mark 26,14,1.4 -o "$OUT/ladder-portals-pocket.gif"
 fi
 python3 tools/compose_strip.py "$OUT/r32-g7-r1.png" "$OUT/r32-g7-r40.png" "$OUT/r32-g7-r100.png" -o "$OUT/r32-g7-opening.png"
 rm -f "$OUT/r32-g7-r1.png" "$OUT/r32-g7-r40.png" "$OUT/r32-g7-r100.png"
